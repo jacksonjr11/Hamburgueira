@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurante</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./Estilos/animações.css">
+</head>
+<body>
+   <header>
+      <a href="" class="navegadores">SOBRE</a>
+      <a href="" class="navegadores">CARDÁPIO</a>
+      <img class="logo" src="./imagens/cortada.jpg" alt="logo">
+      <a href="" class="navegadores">EVENTOS</a>
+      <a href="" class="navegadores">CONTATO</a>
+   </header>
+   <div id="container-marca">
+        <div id="container-nome">
+            <h1 class="nome">Best Burger-Freshandtasty</h1>
+            <p class="lema">Suculentos hambúrgueres e hot-dogs,a gente faz uma cidade mais gostosa</p>
+        </div>
+   </div>
+
+
+   <!-- CONSTRUÇÃO DO BEM VINDO E SERVIÇOS  -->
+
+
+   <div id="container-global-welcome">
+        <div id="container-welcome-servicos">
+            <h1 class="bem-vindo">BEM VINDO</h1>
+            <p class="historia">No ano de 2019,visando inovar no ramo de alimentos
+            e atendendo a inúmeras solicitações das pessoas da região,o Best Burger
+            foi inaugurado para serviços os mais diversos lanches,tornando-se hoje
+            a lanchonete referêncial de qualidade em taboão da serra.  
+            </p>
+            <div id="container-servicos">
+                <div class="servicos">
+                    <img src="./imagens/icone-lanchonete.jpg" alt="lanchonete" class="icone">
+                    <h6>LANCHONETE</h6>
+                    <p class="descricao">Aqui no Best Burger você encontra os mais diversos e suculentos
+                    lanches feitos na hora.Tudo fresquinho e com amor !
+                    </p>
+                </div>
+                <div class="servicos">
+                    <img src="./imagens/globo.png" alt="globo" class="icone">
+                    <h6>DECORAÇÃO</h6>
+                    <p class="descricao">Trabalhamos com decoração de festas e eventos,
+                    temos pessoal especializado e pronto para lhes atender sempre da melhor forma !
+                    </p>
+                </div>
+                <div class="servicos">
+                    <img src="./imagens/festa.png" alt="festa" class="icone">
+                    <h6>FESTAS</h6>
+                    <p class="descricao">Contratando os serviços do Best Burger você realiza
+                    a festa do seus sonhos,temos diversos artigos para festas e um suporte de excelência
+                    </p>
+                </div>
+                <div class="servicos">
+                    <img src="./imagens/drink.png" alt="drink" class="icone">
+                    <h6>EVENTOS</h6>
+                    <p class="descricao">Realizamos eventos de diversos tipos,
+                     como festas de 15 anos, formaturas, eventos para empresas
+                     e etc. Fale conosco !   
+                    </p>
+                </div>
+            </div>
+            
+        </div>
+   </div>
+
+   <!-- CONSTRUÇÃO PROPAGANDA -->
+
+   <div id="propaganda">
+       <h1>esta com fome?</h1>
+   </div>
+
+   <script>
+       const tempo_de_delay = 4000
+        setTimeout(() => (
+            document.getElementById("container-marca").style.backgroundImage = "url('./imagens/blend.png')"
+        ), tempo_de_delay)
+        
+   </script>
+</body>
+</html>

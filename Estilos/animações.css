@@ -1,0 +1,16 @@
+#container-marca {
+    -webkit-transition: all 2.8s cubic-bezier(.190, 1.000, .220, 1.000);
+    -moz-transition: all 2.8s cubic-bezier(.190, 1.000, .220, 1.000);
+    -ms-transition: all 2.8s cubic-bezier(.190, 1.000, .220, 1.000);
+    -o-transition: all 2.8s cubic-bezier(.190, 1.000, .220, 1.000);
+    transition: all 2.8s cubic-bezier(.190, 1.000, .220, 1.000);
+}
+#container-marca:hover {
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2);
+
+    width: 90%;
+}
