@@ -134,3 +134,80 @@ h6 {
     text-align: center;
     line-height: 18px;
 }
+
+
+/* Construção localização */
+.titulo-localizacao {
+    padding: 5px;
+    font-weight: 500;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: fit-content;
+    border: 1px solid #8b4708c9;
+    border-radius: 10px;
+    margin: auto;
+    color: #8b4708c9;
+}
+#container-estabelecimento {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-around;
+    height: 300px;
+    align-items: center;
+    
+}
+#local {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 400px;
+    height: 300px;
+}
+.descricao-local {
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: auto;
+}
+.abra-position {
+    margin-left: 180px;
+}
+.mapa {
+    margin-top: 6px;
+    height: 50px;
+}
+.clique {
+    position: absolute;
+    top: 1260px;
+    left: 170px;
+}
+.fachada {
+    height: 300px;
+    width: 600px;
+    border: solid 1px;
+    border-radius: 8px;
+}
+
+#container-contato {
+    display: flex;
+    height: 200px;
+    background-color: #2e2e2e;
+    margin-top: 50px;
+    justify-content: space-around;
+}
+.container-redes {
+    margin-top: 35px;
+    font-size: 10px;
+    width: 155px;
+    height: 100px;
+}
+.icone-redes {
+    margin-top: 10px;
+    border-radius: 100%;
+}
+.container-numeros {
+    margin-top: 35px;
+    font-size: 10px;
+    width: 200px;
+    height: 100px;
+}
